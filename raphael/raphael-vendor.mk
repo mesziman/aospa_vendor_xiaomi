@@ -185,6 +185,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
+    libMpeg4SwEncoder \
+    libaudioparsers \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
     SoterService \
     WfdService \
     com.qualcomm.location \
